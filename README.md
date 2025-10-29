@@ -170,6 +170,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - UCI Machine Learning Repository - Iris Dataset
 
 ## ⭐ Screenshot
+<img width="1920" height="1080" alt="Screenshot from 2025-10-29 23-50-49" src="https://github.com/user-attachments/assets/be2e492d-41be-4c1b-9068-21efb05680c1" />
+<img width="1920" height="1080" alt="Screenshot from 2025-10-29 23-50-08" src="https://github.com/user-attachments/assets/43e812bd-c667-43b2-ab72-fbaed10a7515" />
 
 Give a ⭐️ if you like this project!
 
