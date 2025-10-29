@@ -22,12 +22,6 @@ The classifier can identify three species of iris flowers:
 | **Iris Versicolor** 🌸 | Medium-sized petals | Wetlands of eastern North America |
 | **Iris Virginica** 🌺 | Longest petals, elegant | Southern and eastern United States |
 
-## 🚀 Demo
-
-[Live Demo](https://your-demo-link.com) *(Add your deployment link here)*
-
-![Screenshot](screenshot.png) *(Add a screenshot of your application)*
-
 ## 📋 Prerequisites
 
 No prerequisites! This is a standalone HTML file that runs in any modern web browser.
@@ -50,9 +44,6 @@ No prerequisites! This is a standalone HTML file that runs in any modern web bro
      ```bash
      # Using Python 3
      python -m http.server 8000
-     
-     # Using Node.js (with npx)
-     npx http-server
      ```
 
 4. **Access the application**
@@ -163,9 +154,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 👨‍💻 Author
 
 **Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)
-- Website: [yourwebsite.com](https://yourwebsite.com)
+- GitHub: [@bitcrafter21](https://github.com/bitcrafter21)
+- LinkedIn: [in/bitcrafter21](https://linkedin.com/in/bitcrafter21)
+- Website: [iris-classifier-alpha.vercel.app](https://iris-classifier-alpha.vercel.app/)
 
 ## 🙏 Acknowledgments
 
@@ -178,15 +169,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Fisher, R. A. (1936). "The use of multiple measurements in taxonomic problems". *Annals of Eugenics*. 7 (2): 179–188.
 - UCI Machine Learning Repository - Iris Dataset
 
-## 🐛 Bug Reports
-
-Found a bug? Please open an issue [here](https://github.com/yourusername/iris-classifier/issues) with:
-- Description of the bug
-- Steps to reproduce
-- Expected behavior
-- Screenshots (if applicable)
-
-## ⭐ Show Your Support
+## ⭐ Screenshot
 
 Give a ⭐️ if you like this project!
 
