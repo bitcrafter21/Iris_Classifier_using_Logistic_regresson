@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iris Flower Classifier</title>
+    <link rel="stylesheet" href="{{url_for("static",filename="style.css")}}">
+</head>
+<body>
+    <div class="bg-shapes">
+        <div class="shape"></div>
+        <div class="shape"></div>
+        <div class="shape"></div>
+    </div>
+
+    <div class="container">
+        <h1>🌸 Iris Classifier</h1>
+        <p class="subtitle">Identify iris species from flower measurements</p>
+
+        <form id="irisForm" action="" method="post">
+            <div class="input-group">
+                <label for="sepalLength">Sepal Length (cm)</label>
+                <input type="number" name="sepalLength" id="sepalLength" step="0.1" min="0" required placeholder="e.g., 5.1">
+            </div>
+
+            <div class="input-group">
+                <label for="sepalWidth">Sepal Width (cm)</label>
+                <input type="number" name="sepalWidth" id="sepalWidth" step="0.1" min="0" required placeholder="e.g., 3.5">
+            </div>
+
+            <div class="input-group">
+                <label for="petalLength">Petal Length (cm)</label>
+                <input type="number" name="petalLength" id="petalLength" step="0.1" min="0" required placeholder="e.g., 1.4">
+            </div>
+
+            <div class="input-group">
+                <label for="petalWidth">Petal Width (cm)</label>
+                <input type="number" name="petalWidth" id="petalWidth" step="0.1" min="0" required placeholder="e.g., 0.2">
+            </div>
+
+            <button type="submit" class="btn">Classify Iris Species</button>
+        </form>
+
+        <div class="result" id="result">
+            <div class="flower-icon">🌺</div>
+            <h2>Classification Result</h2>
+            <div class="species-name" id="speciesName"></div>
+            <div class="info-text" id="infoText"></div>
+        </div>
+    </div>
+    <script src="{{url_for("static",filename="script.js")}}"></script>
+</body>
+</html>
